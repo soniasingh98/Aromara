@@ -1,0 +1,36 @@
+.order-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.order-inner{
+    text-align: center;
+    color:green;
+    border-bottom: 1px solid green;
+    padding-bottom: 1rem;
+}
+.order-icon{
+    border: 2px solid green;
+    padding:0.3rem 0.5rem;
+    border-radius: 40px;
+}
+.order-inner h1{
+    font-size: 2rem;
+}
+.order-inner2{
+    margin-top: 1rem;
+    text-align: center;
+}
+.order-inner2 span{
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .order-outer{
+        margin:0rem 1rem;
+    }
+    .order-inner h1{
+        font-size: 1.5rem;
+    }
+}

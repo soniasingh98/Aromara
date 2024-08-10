@@ -1,0 +1,30 @@
+.explore-outer {
+  background-color: rgb(243 244 246);
+
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explore-outer h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .explore-outer {
+    padding: 0 1rem;
+  }
+  .explore-outer h1 {
+    font-size: 2rem;
+    margin-top: 7rem;
+    text-align: center;
+  }
+}
+@media (max-width: 1410px) and (min-width: 769px) {
+  .explore-outer {
+    min-height: 86vh;
+  }
+}

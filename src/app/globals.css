@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  padding: 8px 16px;
+  border: 1px solid #855d3c;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination li a:hover {
+  background: linear-gradient(70deg, #855d3c 0%, #61432d 35%, #4b3832 100%);
+  color: white;
+}
+
+.pagination .active a {
+       background: linear-gradient(70deg, #855d3c 0%, #61432d 35%, #4b3832 100%);
+
+  color: white;
+}
+/* globals.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
