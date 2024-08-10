@@ -23,7 +23,6 @@ export default function Cart() {
     let orderId = Math.floor(100000000000 + Math.random() * 900000000000);
 
     router.push(`/order/${orderId}`);
-    deleteFromCart(19);
   };
   return (
     <>
